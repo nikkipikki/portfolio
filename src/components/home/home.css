@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+  margin: auto;
+  background-color: grey;
+  width: 80%;
+  height: 200px;
+  text-align: center;
+}
+
+.projects {
+  margin: auto;
+  background-color: pink;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  background-color: white;
+  width:20%;
+  padding-top: 20%;
+  margin-bottom: 2px;
+  transition: background 2s ease-in-out,
+    width 2s ease-in,
+    height 2s linear;
+}
+
+.project:hover {
+    width: 50%;
+    height: 50%;
+}
+
+#gq {
+  background-image: url(/images/gq.png);
+  background-repeat:no-repeat;
+  background-position: top;
+}
