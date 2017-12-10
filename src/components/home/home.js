@@ -12,8 +12,13 @@ class Home extends React.Component {
 
         <div className="projects">
 
-          <div className="project" id="gq">
-            project
+          {/* <div className="project" id="gq">
+            <p className="name">GQ</p>
+          </div> */}
+
+          <div className="project" id="project">
+            <img className="bottom" src="/images/gq.png" />
+            <img className="top" src="/images/test.png" />
           </div>
 
           <div className="project">
